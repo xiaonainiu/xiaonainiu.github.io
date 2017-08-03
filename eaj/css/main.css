@@ -6,7 +6,6 @@ body{
     margin: 0;
     background-color: white;
     height: 100%;
-    /*background-image: url(../img/home_bg.jpg);*/
 }
 p{
     margin: 0;
@@ -15,12 +14,10 @@ p{
     width: 1600px;
     height: 100%;
     margin: 0 auto;
-    background-image: url(../img/home_bg.jpg);
     background-size: cover;
 }
 .logo-font{
     font-size: 24px;
-    color: white;
 }
 .logo-box{
     height: 70px;
@@ -28,6 +25,34 @@ p{
     float: left;
 }
 .button{
-    width: 30px;
-    height: 20px;
+    font-size: 22px;
+    text-align: center;
+    line-height: 78px;
+    position: absolute;
+    width: 156px;
+    height: 78px;
+    border-radius: 28px;
+    color: white;
+    transition: all 0.5s;
+}
+.button:hover{
+    width: 172px;
+    height: 86px;
+    line-height: 86px;
+    margin-left: -8px;
+    margin-top: -4px;
+    opacity: 0.7;
+    cursor: pointer;
+}
+#homepage{
+    background-color: darkred;
+
+}
+#cv{
+    background-color: #0099cc;
+
+}
+#contact{
+    background-color: forestgreen;
+
 }
