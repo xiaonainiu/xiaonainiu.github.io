@@ -18,3 +18,16 @@ p{
     background-image: url(../img/home_bg.jpg);
     background-size: cover;
 }
+.logo-font{
+    font-size: 24px;
+    color: white;
+}
+.logo-box{
+    height: 70px;
+    padding: 0 20px;
+    float: left;
+}
+.button{
+    width: 30px;
+    height: 20px;
+}
