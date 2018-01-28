@@ -15,7 +15,10 @@
   <!-- Swiper -->
   <div class="swiper-container" data-swiper-parallax="10%">
     <div class="swiper-wrapper">
-      <audio src="sounds/bgm.mp3" autoplay loop></audio>
+      <audio src="sounds/bgm.mp3" loop id="bgm"></audio>
+      <div class="swiper-slide">
+        <img src="images/mou.png" id="mou_bgm" class="animated infinite shake " onclick="bgmPlay()" alt=""/>
+      </div>
       <div class="swiper-slide">
         <div><img src="images/1.jpg" data-swiper-parallax="-300" alt=""/><div>我们过的第一个年，湖南老家，那是我们还很瘦，笑的很美，还不会吵架，想想当时真好，能一直那样就好了~</div></div>
       </div>
